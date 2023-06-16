@@ -1,1 +1,2 @@
-# Wordpress![Screenshot (39)](https://github.com/SDUBEYY/Wordpress/assets/121004148/2ae40e4b-a634-4f44-ae1d-aed94772a377)
+# Wordpress!
+![Screenshot (42)](https://github.com/SDUBEYY/Wordpress/assets/121004148/7c70d526-81d5-4d04-a55e-030fa3d7ca38)
