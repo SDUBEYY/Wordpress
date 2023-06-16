@@ -1,0 +1,134 @@
+body{
+    background-image: url("./pexels-darrell-gough-1200861.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Lexend', sans-serif;
+    
+  
+}
+
+section {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+section .layout {
+    position: relative;
+    bottom: 50px;
+    
+    width: 100%;
+    max-width: 1000px;
+    padding: 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+    
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+}
+
+section .layout::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    size: 30px;
+}
+
+section .layout h1 {
+    position: relative;
+    font-size: 45px;
+    color: black;
+    margin-top: 0%;
+    
+}
+
+section .layout p {
+    position: relative;
+    color: #fff;
+}
+
+section .layout button {
+    position: relative;
+}
+
+.leaf{
+    width: 20px;
+    height: 20px;
+    padding: 0 10px;
+
+}
+
+
+.button{
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    background-color: rgb(34, 22, 11);
+    border-radius: 8px;
+    border-color: rgb(34, 22, 11);
+    width: 200px; 
+    padding: 8px 25px;   
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.written{
+    margin-left: 45px;
+    margin-top: -15px;
+    font-size: 15px;
+}
+
+.navbar {
+
+    list-style-type:none;
+    text-align: right;
+    margin-left: -9px;
+    margin-top: -9px;
+    margin-right: -9px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+    height: 70px;
+    color: lightgray;
+
+}
+
+li{
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    
+    color: lightgray;
+
+}
+
+.header{
+    width: 5px;
+    height: 5px;
+    margin-left: 55px;
+    margin-top: 20px;
+    
+    float: left;
+   display:inline;
+   position: relative;
+   bottom: 15px;
+   font-size: 18px;
+}
+
+a {
+    color: lightgray;
+    text-decoration: inherit;
+  }
+
+a:hover{
+    color: white;
+    
+}
